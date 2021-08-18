@@ -6814,4 +6814,38 @@ body {
     margin-bottom: $gutter-site * -4;
   }
 }
+/*================ Reassurance ================*/
+.reassurance__section {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px auto;
+  max-width: 1180px;
+
+  @media (max-width: 580px) {
+    flex-wrap: wrap;
+  }
+}
+.reassurance__item {
+  text-align: center;
+  margin: 20px;
+  width: 100%;
+}
+.reassurance__main_caption {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 5px;
+}
+.reassurance__side_caption {
+  color: rgb(100, 105, 168);
+}
+.reassurance__divider {
+  width: 1px;
+  height: 220px;
+  background-color: lightgrey;
+  align-self: center;
+  
+  @media (max-width: 580px) {
+    display: none;
+  }
+}
 
