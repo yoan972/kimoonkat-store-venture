@@ -261,6 +261,28 @@
         {% endif %}
       {% endfor %}
   {% endif %}
+
+  {% if section.settings.promo_bar_secondary_enable and section.settings.promo_bar_secondary_text != blank %}
+    {% for link in section.settings.promo_bar_secondary_link_list.links %}
+        {% if request.path == link.url %}
+          <div id="NotificationPromo" class="notification notification--promo" data-text="{{ section.settings.promo_bar_text | strip_html | handle }}">
+      <div class="page-width notification__inner {% if section.settings.promo_bar_link != blank %} notification__inner--has-link{% endif %}">
+        {% if section.settings.promo_bar_secondary_link != blank %}
+          <a href="{{ section.settings.promo_bar_link }}" class="notification__link">
+            <span class="notification__message">{{ section.settings.promo_bar_secondary_text | escape }}</span>
+          </a>
+        {% else %}
+          <span class="notification__message">{{ section.settings.promo_bar_secondary_text | escape }}</span>
+        {% endif %}
+        <button type="button" class="text-link notification__close" id="NotificationPromoClose">
+          {% include 'icon-close' %}
+          <span class="icon__fallback-text">{{ 'cart.general.close_notification' | t }}</span>
+        </button>
+      </div>
+    </div>
+        {% endif %}
+      {% endfor %}
+  {% endif %}
 </header>
 
 {% schema %}
@@ -537,6 +559,193 @@
     {
       "type": "link_list",
       "id": "promo_bar_link_list",
+      "label": {
+        "cs": "Odkaz",
+        "da": "Link",
+        "de": "Link",
+        "en": "Link",
+        "es": "Enlace",
+        "fi": "Linkki",
+        "fr": "Lien",
+        "hi": "लिंक",
+        "it": "Link",
+        "ja": "リンク",
+        "ko": "링크",
+        "nb": "Kobling",
+        "nl": "Link",
+        "pl": "Link",
+        "pt-BR": "Link",
+        "pt-PT": "Ligação",
+        "sv": "Länk",
+        "th": "ลิงก์",
+        "tr": "Bağlantı",
+        "vi": "Liên kết",
+        "zh-CN": "链接",
+        "zh-TW": "連結"
+      },
+      "info": {
+        "cs": "Volitelné",
+        "da": "Valgfri",
+        "de": "Optional",
+        "en": "Optional",
+        "es": "Opcional",
+        "fi": "Valinnainen",
+        "fr": "Facultatif",
+        "hi": "वैकल्पिक",
+        "it": "Facoltativo",
+        "ja": "オプション",
+        "ko": "선택 사항",
+        "nb": "Valgfritt",
+        "nl": "Optioneel",
+        "pl": "Opcjonalnie",
+        "pt-BR": "Opcional",
+        "pt-PT": "Opcional",
+        "sv": "Valfritt",
+        "th": "ไม่จำเป็น",
+        "tr": "İsteğe bağlı",
+        "vi": "Không bắt buộc",
+        "zh-CN": "可选",
+        "zh-TW": "(選填)"
+      }
+    },
+    {
+      "type": "header",
+      "content": {
+        "cs": "Panel oznámení",
+        "da": "Meddelelseslinje",
+        "de": "Ankündigungsleiste",
+        "en": "Announcement bar secondary",
+        "es": "Barra de anuncios",
+        "fi": "Ilmoituspalkki",
+        "fr": "Barre d'annonces secondaire",
+        "hi": "घोषणा बार",
+        "it": "Barra degli annunci",
+        "ja": "告知バー",
+        "ko": "공지 표시줄",
+        "nb": "Kunngjøringslinje",
+        "nl": "Aankondigingsbalk",
+        "pl": "Pasek ogłoszeń",
+        "pt-BR": "Barra de avisos",
+        "pt-PT": "Barra de comunicado",
+        "sv": "Meddelandefält",
+        "th": "แถบประกาศ",
+        "tr": "Duyuru çubuğu",
+        "vi": "Thanh thông báo",
+        "zh-CN": "公告栏",
+        "zh-TW": "公告列"
+      }
+    },
+    {
+      "type": "checkbox",
+      "id": "promo_bar_secondary_enable",
+      "label": {
+        "cs": "Zobrazit oznámení",
+        "da": "Vis meddelelse",
+        "de": "Ankündigung anzeigen",
+        "en": "Show announcement",
+        "es": "Mostrar anuncio",
+        "fi": "Näytä ilmoitus",
+        "fr": "Afficher l'annonce",
+        "hi": "घोषणा दिखाएं",
+        "it": "Mostra annuncio",
+        "ja": "告知を表示する",
+        "ko": "공지 표시",
+        "nb": "Vis kunngjøring",
+        "nl": "Aankondiging weergeven",
+        "pl": "Pokaż ogłoszenie",
+        "pt-BR": "Exibir comunicado",
+        "pt-PT": "Mostrar comunicado",
+        "sv": "Visa tillkännagivande",
+        "th": "แสดงประกาศ",
+        "tr": "Duyuruyu göster",
+        "vi": "Hiển thị thông báo",
+        "zh-CN": "显示公告",
+        "zh-TW": "顯示公告"
+      }
+    },
+    {
+      "type": "text",
+      "id": "promo_bar_secondary_text",
+      "label": {
+        "cs": "Text",
+        "da": "Tekst",
+        "de": "Text",
+        "en": "Text",
+        "es": "Texto",
+        "fi": "Teksti",
+        "fr": "Texte",
+        "hi": "टेक्स्ट",
+        "it": "Testo",
+        "ja": "テキスト",
+        "ko": "텍스트",
+        "nb": "Tekst",
+        "nl": "Tekst",
+        "pl": "Tekst",
+        "pt-BR": "Texto",
+        "pt-PT": "Texto",
+        "sv": "Text",
+        "th": "ข้อความ",
+        "tr": "Metin",
+        "vi": "Văn bản",
+        "zh-CN": "文本",
+        "zh-TW": "文字"
+      }
+    },
+    {
+      "type": "url",
+      "id": "promo_bar_secondary_link",
+      "label": {
+        "cs": "Odkaz",
+        "da": "Link",
+        "de": "Link",
+        "en": "Link",
+        "es": "Enlace",
+        "fi": "Linkki",
+        "fr": "Lien",
+        "hi": "लिंक",
+        "it": "Link",
+        "ja": "リンク",
+        "ko": "링크",
+        "nb": "Kobling",
+        "nl": "Link",
+        "pl": "Link",
+        "pt-BR": "Link",
+        "pt-PT": "Ligação",
+        "sv": "Länk",
+        "th": "ลิงก์",
+        "tr": "Bağlantı",
+        "vi": "Liên kết",
+        "zh-CN": "链接",
+        "zh-TW": "連結"
+      },
+      "info": {
+        "cs": "Volitelné",
+        "da": "Valgfri",
+        "de": "Optional",
+        "en": "Optional",
+        "es": "Opcional",
+        "fi": "Valinnainen",
+        "fr": "Facultatif",
+        "hi": "वैकल्पिक",
+        "it": "Facoltativo",
+        "ja": "オプション",
+        "ko": "선택 사항",
+        "nb": "Valgfritt",
+        "nl": "Optioneel",
+        "pl": "Opcjonalnie",
+        "pt-BR": "Opcional",
+        "pt-PT": "Opcional",
+        "sv": "Valfritt",
+        "th": "ไม่จำเป็น",
+        "tr": "İsteğe bağlı",
+        "vi": "Không bắt buộc",
+        "zh-CN": "可选",
+        "zh-TW": "(選填)"
+      }
+    },
+    {
+      "type": "link_list",
+      "id": "promo_bar_secondary_link_list",
       "label": {
         "cs": "Odkaz",
         "da": "Link",
