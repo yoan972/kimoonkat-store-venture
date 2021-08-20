@@ -201,7 +201,7 @@
           "logo": "shopify:\/\/shop_images\/Fichier_1_16cd0a9e-256d-415a-893e-29e9fecad7fe.png",
           "logo_max_width": "100",
           "main_linklist": "main-menu",
-          "promo_bar_enable": false,
+          "promo_bar_enable": true,
           "promo_bar_text": "Les t-shirts, sweartshirts, coques de smartphone à destinations des DOM-TOM sont temporairement indisponibles à la vente à cause des restrictions des transporteurs en cette période de crise sanitaire.(COVID -19)🥺",
           "promo_bar_link": ""
         }
