@@ -181,16 +181,24 @@
       },
       "image-content": {
         "type": "image-content",
-        "disabled": true,
         "blocks": {
           "image-content-0": {
             "type": "image_block",
             "settings": {
             }
+          },
+          "bb4e6d65-fc7b-4f75-a797-7c87e46e0d91": {
+            "type": "text_block",
+            "settings": {
+              "title": "Hey , moi c'est Kimoonkat !🌸",
+              "text": "<p><br\/>26 ans Illustratrice, jeune caribbéenne de la Martinique.<br\/>De nature très discrète, je ne me suis jamais vraiment présentée à vous... but Here I am ! =)<br\/><br\/>Voilà maintenant un an et demi que je me suis remise à ma première passion : dessiner. 🎨<br\/><br\/>Je crée avec l'idée de faire rayonner la culture caribéenne et noire à travers les frontières. Mes illustrations peuvent aller de la femme noire, aux paysages tropicaux, à l'Histoire, l'actualité sur le monde, des good vibes.. le tout sur des couleurs chaudes et vibrantes.<br\/><br\/>Enfin, suis moi sur mon compte insta @Kimoon.kat, tu verras !💫<br\/><br\/>Pour route demandes de collab \/ projet, contacte moi par mail à info.kimoonkat@gmail.com.📝<\/p><p><br\/><br\/><br\/><\/p>",
+              "align": "left"
+            }
           }
         },
         "block_order": [
-          "image-content-0"
+          "image-content-0",
+          "bb4e6d65-fc7b-4f75-a797-7c87e46e0d91"
         ],
         "settings": {
         }
