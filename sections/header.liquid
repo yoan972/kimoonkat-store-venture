@@ -240,9 +240,10 @@
   </div>
 
   {% if section.settings.promo_bar_enable and section.settings.promo_bar_text != blank %}
-    <div id="NotificationPromo" class="notification notification--promo" data-text="{{ section.settings.promo_bar_text | strip_html | handle }}" style="
-    background-color: #e22a4e;
-">
+    {% for link in section.settings.promo_bar_link_list.links %}
+        {% if request.path == link.url %}
+          <div id="NotificationPromo" class="notification notification--promo" data-text="{{ section.settings.promo_bar_text | strip_html | handle }}" style="
+    background-color: #e22a4e;">
       <div class="page-width notification__inner {% if section.settings.promo_bar_link != blank %} notification__inner--has-link{% endif %}">
         {% if section.settings.promo_bar_link != blank %}
           <a href="{{ section.settings.promo_bar_link }}" class="notification__link">
@@ -257,6 +258,8 @@
         </button>
       </div>
     </div>
+        {% endif %}
+      {% endfor %}
   {% endif %}
 </header>
 
@@ -482,6 +485,58 @@
     {
       "type": "url",
       "id": "promo_bar_link",
+      "label": {
+        "cs": "Odkaz",
+        "da": "Link",
+        "de": "Link",
+        "en": "Link",
+        "es": "Enlace",
+        "fi": "Linkki",
+        "fr": "Lien",
+        "hi": "लिंक",
+        "it": "Link",
+        "ja": "リンク",
+        "ko": "링크",
+        "nb": "Kobling",
+        "nl": "Link",
+        "pl": "Link",
+        "pt-BR": "Link",
+        "pt-PT": "Ligação",
+        "sv": "Länk",
+        "th": "ลิงก์",
+        "tr": "Bağlantı",
+        "vi": "Liên kết",
+        "zh-CN": "链接",
+        "zh-TW": "連結"
+      },
+      "info": {
+        "cs": "Volitelné",
+        "da": "Valgfri",
+        "de": "Optional",
+        "en": "Optional",
+        "es": "Opcional",
+        "fi": "Valinnainen",
+        "fr": "Facultatif",
+        "hi": "वैकल्पिक",
+        "it": "Facoltativo",
+        "ja": "オプション",
+        "ko": "선택 사항",
+        "nb": "Valgfritt",
+        "nl": "Optioneel",
+        "pl": "Opcjonalnie",
+        "pt-BR": "Opcional",
+        "pt-PT": "Opcional",
+        "sv": "Valfritt",
+        "th": "ไม่จำเป็น",
+        "tr": "İsteğe bağlı",
+        "vi": "Không bắt buộc",
+        "zh-CN": "可选",
+        "zh-TW": "(選填)"
+      }
+    },
+    {
+      "type": "link_list",
+      "id": "promo_bar_link_list",
       "label": {
         "cs": "Odkaz",
         "da": "Link",
