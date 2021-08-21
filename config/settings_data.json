@@ -59,7 +59,7 @@
               "image": "shopify:\/\/shop_images\/tryptique-miseensitu.jpg",
               "image_position": "center center",
               "title": "#3 spots 1 island",
-              "button_label": "Afficher tous les résultats de produits",
+              "button_label": "Découvrir",
               "button_link": "shopify:\/\/collections\/3-spot-1-island"
             }
           },
@@ -69,7 +69,7 @@
               "image": "shopify:\/\/shop_images\/COCO-PASTEQUE-MANGUE-beige.jpg",
               "image_position": "center center",
               "title": "#Tropical Garden",
-              "button_label": "Afficher tous les produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/tropical-garden"
             }
           },
@@ -79,7 +79,7 @@
               "image": "shopify:\/\/shop_images\/Illus-headoff-v3.jpg",
               "image_position": "center center",
               "title": "#Break",
-              "button_label": "Afficher tous les résultats de produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/take-a-break"
             }
           },
@@ -89,7 +89,7 @@
               "image": "shopify:\/\/shop_images\/illus-ileaufleurs1.jpg",
               "image_position": "center center",
               "title": "#Ile aux fleurs",
-              "button_label": "Afficher tous produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/ile-aux-fleurs"
             }
           }
