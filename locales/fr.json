@@ -23,7 +23,7 @@
       "login_form_submit": "Entrer",
       "signup_form_email_label": "E-mails",
       "signup_form_success": "Nous vous enverrons un e-mail juste avant l'ouverture !!",
-      "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"/admin\" class=\"text-link\">Connectez-vous ici</a>.",
+      "admin_link_html": "Êtes-vous le propriétaire de la boutique? <a href=\"\/admin\" class=\"text-link\">Connectez-vous ici<\/a>.",
       "password_link": "Entrer avec un mot de passe",
       "powered_by_shopify_html": "Cette boutique sera propulsée par {{ shopify }}"
     },
@@ -47,8 +47,8 @@
       "submit": "Recherche",
       "read_more": "Plus",
       "results_count_html": {
-        "one": "{{ count }} résultat pour <strong>{{ terms }}</strong>",
-        "other": "{{ count }} résultats pour <strong>{{ terms }}</strong>"
+        "one": "{{ count }} résultat pour <strong>{{ terms }}<\/strong>",
+        "other": "{{ count }} résultats pour <strong>{{ terms }}<\/strong>"
       },
       "products": "Produits",
       "pages_and_articles": "Pages et articles"
@@ -90,9 +90,9 @@
       "remove": "Supprimer",
       "note": "Instructions spéciales pour la commande",
       "taxes_and_shipping_at_checkout": "Taxes et frais de port calculés à l'étape de paiement",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais de port</a> calculés à l'étape de paiement",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes et <a href=\"{{ link }}\">frais de port<\/a> calculés à l'étape de paiement",
       "taxes_included_but_shipping_at_checkout": "Taxes incluses et frais de port calculés à l'étape de paiement",
-      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais de port</a> calculés à l'étape de paiement.",
+      "taxes_included_and_shipping_policy_html": "Taxes incluses. <a href=\"{{ link }}\">Frais de port<\/a> calculés à l'étape de paiement.",
       "update": "Mettre à jour",
       "checkout": "Procéder au paiement",
       "empty": "Votre panier est vide.",
@@ -158,7 +158,7 @@
       "address1": "Adresse 1",
       "address2": "Adresse 2",
       "city": "Ville",
-      "country": "Pays/région",
+      "country": "Pays\/région",
       "province": "Province",
       "zip": "Code postal",
       "phone": "Téléphone",
@@ -239,7 +239,7 @@
       "previous_slide": "Diapositive précédente",
       "pause_slideshow": "Mettre en pause le diaporama",
       "play_slideshow": "Jouer le diaporama",
-      "navigation_instructions": "Utilisez les flèches gauche/droite pour naviguer dans le diaporama ou glissez vers la gauche/droite sur un appareil mobile",
+      "navigation_instructions": "Utilisez les flèches gauche\/droite pour naviguer dans le diaporama ou glissez vers la gauche\/droite sur un appareil mobile",
       "slide_number": "Faire glisser {{ slide_number }}, en cours"
     },
     "onboarding": {
@@ -276,8 +276,8 @@
       "on_sale": "En solde",
       "on_sale_from_html": "En solde {{ price }}",
       "from_text_html": "À partir de {{ price }}",
-      "include_taxes": "Taxes incluses.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de port</a> calculés à l'étape de paiement.",
+      "include_taxes": "Livraison gratuite.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de port<\/a> calculés à l'étape de paiement.",
       "quantity": "Quantité",
       "add_to_cart": "Ajouter au panier",
       "full_details": "Tous les détails",
@@ -287,7 +287,7 @@
         "other": "{{ count }} restant"
       },
       "collection_return": "Retour à {{ collection }}",
-      "product_added_to_cart_html": "Article ajouté au panier. <span>Voir le panier et passer à la caisse</span>.",
+      "product_added_to_cart_html": "Article ajouté au panier. <span>Voir le panier et passer à la caisse<\/span>.",
       "stock_unavailable": "L'article n'a pu être ajouté à votre panier car il n'y en a pas assez en stock.",
       "unit_price_label": "Prix unitaire"
     }
@@ -311,7 +311,7 @@
       "get_directions": "Obtenir des directions",
       "address_error": "Vous ne trouvez pas cette adresse",
       "address_no_results": "Aucun résultat pour cette adresse",
-      "address_query_limit_html": "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un <a href=\"https://developers.google.com/maps/premium/usage-limits\">régime spécial</a>.",
+      "address_query_limit_html": "Vous avez dépassé la limite de Google utilisation de l'API. Envisager la mise à niveau à un <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">régime spécial<\/a>.",
       "auth_error_html": "Il y avait un problème authentifier votre compte Google Maps API."
     }
   },
