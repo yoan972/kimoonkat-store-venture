@@ -273,7 +273,7 @@
       "will_be_in_stock_after": "Sera en stock à compter de {{ date }}",
       "sale_price": "Prix réduit",
       "regular_price": "Prix régulier",
-      "on_sale": "En solde",
+      "on_sale": "Promo",
       "on_sale_from_html": "En solde {{ price }}",
       "from_text_html": "À partir de {{ price }}",
       "include_taxes": "Livraison gratuite",
