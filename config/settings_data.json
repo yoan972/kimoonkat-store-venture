@@ -59,7 +59,7 @@
               "image": "shopify:\/\/shop_images\/tryptique-miseensitu.jpg",
               "image_position": "center center",
               "title": "#3 spots 1 island",
-              "button_label": "Afficher tous les résultats de produits",
+              "button_label": "Découvrir",
               "button_link": "shopify:\/\/collections\/3-spot-1-island"
             }
           },
@@ -69,7 +69,7 @@
               "image": "shopify:\/\/shop_images\/COCO-PASTEQUE-MANGUE-beige.jpg",
               "image_position": "center center",
               "title": "#Tropical Garden",
-              "button_label": "Afficher tous les produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/tropical-garden"
             }
           },
@@ -79,7 +79,7 @@
               "image": "shopify:\/\/shop_images\/Illus-headoff-v3.jpg",
               "image_position": "center center",
               "title": "#Break",
-              "button_label": "Afficher tous les résultats de produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/take-a-break"
             }
           },
@@ -89,7 +89,7 @@
               "image": "shopify:\/\/shop_images\/illus-ileaufleurs1.jpg",
               "image_position": "center center",
               "title": "#Ile aux fleurs",
-              "button_label": "Afficher tous produits",
+              "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/ile-aux-fleurs"
             }
           }
@@ -181,16 +181,25 @@
       },
       "image-content": {
         "type": "image-content",
-        "disabled": true,
         "blocks": {
           "image-content-0": {
             "type": "image_block",
             "settings": {
+              "image": "shopify:\/\/shop_images\/photopp-sitemini2.jpg"
+            }
+          },
+          "bb4e6d65-fc7b-4f75-a797-7c87e46e0d91": {
+            "type": "text_block",
+            "settings": {
+              "title": "Hey , moi c'est Kimoonkat !🌸",
+              "text": "<p><br\/>26 ans Illustratrice, jeune caribbéenne de la Martinique.<br\/>De nature très discrète, je ne me suis jamais vraiment présentée à vous... but Here I am ! =)<br\/><br\/>Voilà maintenant un an et demi que je me suis remise à ma première passion : dessiner. 🎨<br\/><br\/>Je crée avec l'idée de faire rayonner la culture caribéenne et noire à travers les frontières. Mes illustrations peuvent aller de la femme noire, aux paysages tropicaux, à l'Histoire, l'actualité sur le monde, le tout rempli de good vibes, entres des couleurs chaudes et vibrantes.<br\/><br\/>Enfin, suis moi sur mon compte insta @Kimoon.kat, tu verras !💫<br\/><br\/>Pour toutes demandes de collab \/ projets, n'hésites pas à me contacter par mail à info.kimoonkat@gmail.com.📝<\/p><p><br\/><br\/><br\/><\/p>",
+              "align": "left"
             }
           }
         },
         "block_order": [
-          "image-content-0"
+          "image-content-0",
+          "bb4e6d65-fc7b-4f75-a797-7c87e46e0d91"
         ],
         "settings": {
         }
@@ -202,9 +211,13 @@
           "logo_max_width": "100",
           "main_linklist": "main-menu",
           "promo_bar_enable": true,
-          "promo_bar_text": "Livraison gratuite partout en France (Dom-Tom compris). Expéditions sous 48h 🚚   💌",
+          "promo_bar_text": "🌴DOM-TOM ALERTE : LIVRAISON temporairement indisponible  pour les vêtements et les coques ( COVID -19: restrictions des transporteurs)🚚   🥺",
           "promo_bar_link": "",
-          "promo_bar_link_list": "banner-not-delivery-domtom"
+          "promo_bar_link_list": "banner-not-delivery-domtom",
+          "promo_bar_secondary_enable": true,
+          "promo_bar_secondary_text": "Livraison gratuite partout en France (Dom-Tom compris). Expéditions sous 48h 🚚   💌",
+          "promo_bar_secondary_link": "",
+          "promo_bar_secondary_link_list": "banner-livraison-gratuite"
         }
       },
       "collection-filters": {
