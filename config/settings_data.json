@@ -211,7 +211,7 @@
           "logo_max_width": "100",
           "main_linklist": "main-menu",
           "promo_bar_enable": true,
-          "promo_bar_text": "🌴🚚DOM-TOM LIVRAISON: Lors du passage en caisse et la saisie de l'adresse de livraison, mettre \"FRANCE\" dans la section \"Pays\/Région\".🚚🌴",
+          "promo_bar_text": "🌴🚚DOM-TOM LIVRAISON: Lors du passage en caisse et de la saisie de l'adresse de livraison, sélectionner \"FRANCE\" dans la section \"Pays\/Région\".🚚🌴",
           "promo_bar_link": "",
           "promo_bar_link_list": "banner-not-delivery-domtom",
           "promo_bar_secondary_enable": true,
