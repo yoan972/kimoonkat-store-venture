@@ -161,12 +161,19 @@
             "settings": {
               "collection": "vetements"
             }
+          },
+          "661ba705-0a87-4e79-9ae0-1695b5b4a3b4": {
+            "type": "collection",
+            "settings": {
+              "collection": "tous-les-produits"
+            }
           }
         },
         "block_order": [
           "featured-collections-0",
           "featured-collections-1",
-          "featured-collections-2"
+          "featured-collections-2",
+          "661ba705-0a87-4e79-9ae0-1695b5b4a3b4"
         ],
         "settings": {
           "stretch_collection_image": false
