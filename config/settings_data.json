@@ -164,8 +164,9 @@
           },
           "661ba705-0a87-4e79-9ae0-1695b5b4a3b4": {
             "type": "collection",
+            "disabled": true,
             "settings": {
-              "collection": "tous-les-produits"
+              "collection": ""
             }
           }
         },
