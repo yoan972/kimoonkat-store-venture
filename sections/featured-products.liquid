@@ -91,7 +91,9 @@
                 <span class="btn product-card__overlay-btn {% if view_string_length > 8 %} btn--narrow{% endif %}">{{ 'products.product.view' | t }}</span>
               </div>
             </a>
-          </div>
+          <!-- **BEGIN** Hextom USB Integration // Home Featured Product Include - DO NOT MODIFY -->
+    {% render 'hextom_usb_home_featured_prod', product: product %}
+    <!-- **END** Hextom USB Integration // Home Featured Product Include - DO NOT MODIFY --></div>
         {% endfor %}
       </div>
     {% endif %}
