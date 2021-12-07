@@ -277,7 +277,7 @@
       "on_sale_from_html": "Promo {{ price }}",
       "from_text_html": "À partir de {{ price }}",
       "include_taxes": "TVA incluse. Frais de livraison offerts à partir de 30€.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de port<\/a> calculés à l'étape de paiement.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Frais de port<\/a> calculés à l'étape de paiement. 🚚",
       "quantity": "Quantité",
       "add_to_cart": "Ajouter au panier",
       "full_details": "Tous les détails",
