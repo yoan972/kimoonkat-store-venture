@@ -53,6 +53,16 @@
       "slideshow": {
         "type": "slideshow",
         "blocks": {
+          "placeholder-0": {
+            "type": "slide",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/cover1.png",
+              "image_position": "center center",
+              "title": "",
+              "button_label": "",
+              "button_link": ""
+            }
+          },
           "26531392-9f3b-419f-a7b3-22fd16f7fd13": {
             "type": "slide",
             "settings": {
@@ -61,16 +71,6 @@
               "title": "#3 spots 1 island",
               "button_label": "Découvrir",
               "button_link": "shopify:\/\/collections\/3-spot-1-island"
-            }
-          },
-          "placeholder-0": {
-            "type": "slide",
-            "settings": {
-              "image": "shopify:\/\/shop_images\/COCO-PASTEQUE-MANGUE-beige.jpg",
-              "image_position": "center center",
-              "title": "#Tropical Garden",
-              "button_label": "Découvrir la collection",
-              "button_link": "shopify:\/\/collections\/tropical-garden"
             }
           },
           "26fc9aa1-64f1-4cdb-bd4e-c54b0b580473": {
@@ -95,8 +95,8 @@
           }
         },
         "block_order": [
-          "26531392-9f3b-419f-a7b3-22fd16f7fd13",
           "placeholder-0",
+          "26531392-9f3b-419f-a7b3-22fd16f7fd13",
           "26fc9aa1-64f1-4cdb-bd4e-c54b0b580473",
           "be1a463d-37e4-4209-a7ce-d197847886a0"
         ],
