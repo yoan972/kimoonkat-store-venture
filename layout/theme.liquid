@@ -72,7 +72,10 @@
 <!-- RYVIU APP :: Settings global -->	
     <script> var ryviu_global_settings = {{shop.metafields.ryviu.user_settings }};</script>
 <!-- RYVIU APP -->
-<script async src="https://assets.apphero.co/script_tags/286933_926822.js"></script><script async src="https://assets.apphero.co/script_tags/150243_382404.js"></script></head>
+<script async src="https://assets.apphero.co/script_tags/286933_926822.js"></script><script async src="https://assets.apphero.co/script_tags/150243_382404.js"></script>
+                  {% include 'bss-product-labels-configs' %}
+                    </head>
+             
 
 <body class="template-{{ request.page_type | handle }}" >
 
@@ -129,5 +132,5 @@
 <!-- **BEGIN** Hextom USB Integration // Main Include - DO NOT MODIFY -->
     {% render 'hextom_usb_main', product: product, customer: customer %}
     <!-- **END** Hextom USB Integration // Main Include - DO NOT MODIFY -->
-</body>
+{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% endif %}</body>
 </html>
