@@ -56,10 +56,10 @@
           "placeholder-0": {
             "type": "slide",
             "settings": {
-              "image": "shopify:\/\/shop_images\/cover1.png",
+              "image": "shopify:\/\/shop_images\/BAKOUA-2.jpg",
               "image_position": "center center",
-              "title": "",
-              "button_label": "",
+              "title": "Fanm Colibri",
+              "button_label": "Découvrir la nouvelle collection",
               "button_link": ""
             }
           },
