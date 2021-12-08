@@ -78,7 +78,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/Illus-headoff-v3.jpg",
               "image_position": "center center",
-              "title": "#Break",
+              "title": "Break",
               "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/take-a-break"
             }
@@ -88,7 +88,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/illus-ileaufleurs1.jpg",
               "image_position": "center center",
-              "title": "#Ile aux fleurs",
+              "title": "Ile aux fleurs",
               "button_label": "Découvrir la collection",
               "button_link": "shopify:\/\/collections\/ile-aux-fleurs"
             }
